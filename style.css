@@ -1,0 +1,30 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background: rgb(25, 25, 25);
+}
+
+.imgContainer {
+  position: absolute;
+  right: 0%;
+  z-index: -1;
+}
+
+img {
+  max-height: 100vh;
+}
+
+.txtContainer {
+  position: absolute;
+  left: 0%;
+  padding: 3px;
+  color: white;
+  background-color: rgba(50, 50, 50, 0.8);
+}
+
+a {
+  color: white;
+}
